@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>量尺标注 隐私政策</title>
+<style>
+  :root{--fg:#1c1c1e;--fg2:rgba(60,60,67,.7);--line:rgba(60,60,67,.14);--tint:#185FA5}
+  *{box-sizing:border-box}
+  body{margin:0;background:#f2f2f7;color:var(--fg);
+    font:16px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+  h1{margin:0 0 6px;font-size:26px;line-height:1.3}
+  .meta{color:var(--fg2);font-size:14px;margin-bottom:22px}
+  h2{margin:28px 0 8px;font-size:18px}
+  p,li{color:var(--fg)}
+  ul{padding-left:1.2em}
+  .card{background:#fff;border-radius:18px;padding:22px 22px 26px;box-shadow:0 1px 2px rgba(16,24,40,.05),0 10px 26px rgba(16,24,40,.07)}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0}
+  th,td{text-align:left;padding:9px 10px;border-bottom:.5px solid var(--line);vertical-align:top}
+  th{color:var(--fg2);font-weight:600}
+  .fill{color:#C0392B;font-weight:600}
+  footer{margin-top:26px;color:var(--fg2);font-size:13.5px}
+  @media print{body{background:#fff}.card{box-shadow:none}.wrap{max-width:none;padding:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>量尺标注 隐私政策</h1>
+    <div class="meta">生效日期：2026 年 10 月 12 日　|　最近更新：2026 年 10 月 12 日</div>
+
+    <p>本政策适用于 <strong>李轩宇</strong>（个人开发者，以下简称"我们"）开发并发布的
+      「量尺标注」移动应用（Android 版与 iOS 版，以下简称"本应用"）。我们非常重视你的个人信息保护，
+      本政策说明本应用会（以及不会）如何处理你的信息。</p>
+
+    <h2>一、我们不收集你的个人信息</h2>
+    <ul>
+      <li>本应用<strong>没有账号体系</strong>，不需要注册、不需要登录，也不要求你填写手机号、邮箱等任何个人信息。</li>
+      <li>本应用<strong>不联网上传</strong>任何数据：照片、标注、尺寸比例等全部只保存在你的设备本地，
+        不会发送到我们的服务器（本应用也没有服务器）。</li>
+      <li>本应用<strong>不接入任何第三方 SDK</strong>（无广告、无统计、无推送、无社交分享 SDK）。</li>
+      <li>本应用不读取你的通讯录、短信、位置、麦克风、设备识别码，也不做用户画像。</li>
+    </ul>
+
+    <h2>二、我们申请的权限及用途</h2>
+    <p>为了保证拍照、选图和保存功能可用，本应用会申请以下权限，<strong>均只在你的设备本地使用</strong>：</p>
+    <table>
+      <tr><th>权限</th><th>用途</th><th>是否必须</th></tr>
+      <tr><td>相机</td><td>拍摄现场照片，用于在照片上绘制尺寸线与标注</td><td>可选（不给也能用"从相册选择"）</td></tr>
+      <tr><td>照片 / 媒体与文件读取</td><td>从相册选择已有照片进行标注</td><td>可选</td></tr>
+      <tr><td>照片 / 媒体与文件写入</td><td>把标注好的图片保存到系统相册</td><td>可选</td></tr>
+    </table>
+    <p>你可以随时在系统"设置 → 应用 → 量尺标注 → 权限"里关闭这些权限。关闭后对应功能不可用，其余功能不受影响。</p>
+
+    <h2>三、数据存在哪里、保存多久</h2>
+    <ul>
+      <li>照片原始文件保存在设备本地的应用数据区（Android：IndexedDB / iOS：IndexedDB）；
+        项目、标注、尺寸比例等记录保存在设备本地的 localStorage 中。</li>
+      <li>保存期限由你决定：在应用内删除某个项目、房间或照片即立即删除对应数据；
+        <strong>卸载本应用会清除全部本地数据</strong>（卸载前请先把需要的标注图保存到相册）。</li>
+      <li>本应用不会把数据备份到我们或其他第三方的服务器。</li>
+    </ul>
+
+    <h2>四、数据的共享、转让与公开披露</h2>
+    <p>我们<strong>不会</strong>向任何第三方共享、转让或公开披露你的数据。只有你在应用内主动使用系统分享/保存功能时，
+      数据才会通过你选择的系统渠道（如相册、微信等）流出，这一步由你本人操作并自行决定。</p>
+
+    <h2>五、未成年人保护</h2>
+    <p>本应用是面向施工、装修、监理等专业场景的记录工具，不面向 14 周岁以下儿童，
+      也不会有意收集未成年人的个人信息。若监护人发现未成年人使用了本应用，可直接删除其创建的本地数据。</p>
+
+    <h2>六、你的权利</h2>
+    <ul>
+      <li>查看与更正：你的数据都在本机，打开应用即可查看、修改（改名、调整标注）。</li>
+      <li>删除：在应用内删除项目 / 房间 / 照片，或卸载应用。</li>
+      <li>撤回授权：在系统设置里关闭相机或相册权限。</li>
+      <li>由于我们不收集任何个人信息，不存在"向我们申请查阅、复制、转移个人信息"的情形。</li>
+    </ul>
+
+    <h2>七、信息安全</h2>
+    <p>因为数据只存在你的设备上，安全性主要取决于你的设备安全（锁屏密码、系统更新等）。
+      建议不要把设备交给不可信的第三方，并定期把重要的标注图保存到相册或备份设备。</p>
+
+    <h2>八、本政策的更新</h2>
+    <p>若本应用新增联网、账号或统计等功能，我们会先更新本政策并在应用内提示，再发布新版本。</p>
+
+    <h2>九、联系我们</h2>
+    <p>对本政策有任何疑问，可联系：<strong>uzee@163.com</strong></p>
+
+    <footer>本政策自生效日期起施行。应用名称：量尺标注（Android 包名 com.measureannotate.app，iOS Bundle ID com.measureannotate.app）。</footer>
+  </div>
+</div>
+</body>
+</html>
